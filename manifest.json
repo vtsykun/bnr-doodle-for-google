@@ -1,0 +1,21 @@
+{
+  "name": "Google-Doodle да \"Дня Волі\" 2019",
+  "version": "1.0.0",
+  "description": "Google-Doodle лагатып да 101-годдзя абвяшчэння БНР",
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches":  ["*://*/*"],
+    "include_globs":  ["http://www.google.*/*", "https://www.google.*/*"]
+  }],
+  "browser_action": {
+    "default_icon": "128-icon.png",
+    "default_title": "Дзень Волі 2019"
+  },
+  "icons": {"128": "128-icon.png"},
+  "web_accessible_resources": [
+    "images/dzien-voli-logo.png",
+    "images/dzien-voli-logo-small.png"
+  ],
+  "manifest_version": 2
+}
