@@ -9,8 +9,12 @@ Chrome расшырэнне, якое змяняе звычайны лагаты
 
 ## Усталяваць
 
-1. Спампуйце або з кланіруйце расшырэнне.
+1. Спампуйце або скланіруйце расшырэнне.
 Спампаваць aрхіў з расшырэннем можна тут https://github.com/vtsykun/bnr-doodle-for-google/archive/master.zip
+
+```
+git clone https://github.com/vtsykun/bnr-doodle-for-google.git
+```
 
 2. Перайдіце да старонкі расшырэнняў `chrome://extensions`
 
